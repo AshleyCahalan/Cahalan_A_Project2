@@ -10,3 +10,337 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+
+#mainHeader
+{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 4px #2e5670;
+    align-items: center;
+}
+
+#logo
+{
+    margin-right: auto;
+}
+
+#logo p
+{
+  font-size: 30px;
+  font-family: "Luckiest Guy", Arial, sans-serif;
+  letter-spacing: 2px;
+  color: #284b67;
+}
+
+#mainNav
+{
+    margin-left: 0 auto;
+    width: 500px;
+}
+
+.mainNav ul
+{
+    padding: 0;
+}
+
+.mainNav ul li
+{
+    font-size: 20px;
+    font-family: "Paytone One", Arial, sans-serif;
+    display: inline;
+    margin-left: 55px;
+    letter-spacing: 1.5px;
+}
+
+.mainNav ul li a
+{
+    color: #284b67;
+    padding: 10px;
+  	border-radius: 10px;
+    list-style-type: none;
+    text-decoration: none;
+  	transition: all .5s ease-in-out;
+}
+
+.mainNav ul li a:hover
+{
+    background-color: #6bacd1;
+}
+
+.selected
+{
+    padding: 10px 0 10px 0;
+    background-color: #6bacd1;
+    border-radius: 10px;
+}
+
+
+#mainFooter
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    border-top: solid 4px #2e5670;
+    align-items: center;
+}
+
+#copyRight
+{
+    margin-left: auto;
+}
+
+#copyRight p
+{
+  font-size: 14px;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+#footerNav {
+    margin-right: 0 auto;
+    width: 500px;
+}
+
+.footerNav ul {
+    padding: 0;
+}
+
+.footerNav ul li
+{
+    font-size: 20px;
+    font-family: "Paytone One", Arial, sans-serif;
+    display: inline;
+    margin-right: 55px;
+    letter-spacing: 1.5px;
+}
+
+.footerNav ul li a
+{
+    color: #284b67;
+    padding: 10px;
+  	border-radius: 10px;
+    list-style-type: none;
+    text-decoration: none;
+  	transition: all .5s ease-in-out;
+}
+
+.footerNav ul li a:hover
+{
+    background-color: #6bacd1;
+}
+
+
+
+h2
+{
+  font-family: "Paytone One", Arial, sans-serif;
+  font-size: 30px;
+  color: #444;
+}
+
+p
+{
+  font-family: "Open Sans", Arial, sans-serif;
+  margin-top: 0;
+  line-height: 24px;
+  color: #444;
+}
+
+.startPara
+{
+  margin-top: 10px;
+}
+
+
+
+
+
+
+.hero
+{
+	height: 340px;
+	width: 960px;
+	background: url(../images/hero_image_ed.jpg) no-repeat bottom;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.hero h2
+{
+	color: #fff;
+	font-size: 50px;
+	text-align: left;
+  margin-left: 40px;
+	font-family: "Luckiest Guy", Arial, sans-serif;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px #d18c01;
+}
+
+.hero h3
+{
+	font-size: 140px;
+	color: #fff;
+	text-align: left;
+  margin-left: 40px;
+  font-family: "Passion One", Arial, sans-serif;
+  letter-spacing: 8px;
+  line-height: 120px;
+  text-shadow: 3px 3px #d18c01;
+}
+
+.hero h4
+{
+	font-size: 30px;
+	color: #fff;
+	text-align: left;
+  margin-left: 40px;
+	margin-bottom: 30px;
+  font-family: "Passion One", Arial, sans-serif;
+  text-decoration: overline;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px #444;
+}
+
+
+
+
+#introCon
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+#introText
+{
+	width: 615px;
+	height: 255px;
+}
+
+#introImage
+{
+  width: 300px;
+  height: 255px;
+}
+
+
+#secondCon
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+#secondText
+{
+  width: 980px;
+  height: 185px;
+}
+
+
+
+#thirdCon
+{
+  display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+#thirdText
+{
+	width: 275px;
+	height: 390px;
+}
+
+#thirdImage
+{
+  width: 300px;
+  height: 390px;
+}
+
+#fourthText
+{
+	width: 320px;
+	height: 390px;
+}
+
+
+#fourthCon
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+#fifthText
+{
+  width: 980px;
+  height: 125px;
+}
+
+
+#fifthCon
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+#sixthText
+{
+  width: 980px;
+  height: 140px;
+}
+
+
+#sixthCon
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+#seventhText
+{
+	width: 610px;
+	height: 275px;
+}
+
+#fourthImage
+{
+  width: 310px;
+  height: 275px;
+}
+
+
+#conclusionsCon
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+#conclusionsText
+{
+  width: 960px;
+  height: 130px;
+}
+
+#conclusionsImage
+{
+  margin-top: 30px;
+  width: 960px;
+  height: 200px;
+}
